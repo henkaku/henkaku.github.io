@@ -26,6 +26,8 @@ function setupInstall() {
       '<p>Installation can take anywhere from a few seconds to a minute. If any error message comes up, just press okay and try again. If the browser freezes for longer than a minute, hold the power button for 15 seconds to shut down the device. You can then attempt to install again.</p>';
     canInstall = true;
   }
-  document.getElementById('installText').innerHTML = text;
-  document.getElementById('installBtn').disabled = !canInstall;
+  $("#installText").html(text);
+  if (!canInstall) {
+    $("#installBtn").addClass("disabled");
+  }
 }
