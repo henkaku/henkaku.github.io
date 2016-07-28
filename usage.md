@@ -43,9 +43,11 @@ Press "OK" and try again. If the browser crashes more than three times in a row,
 
 Press "OK" and try again. If this happens more than three times in a row, you should reboot the system and try again.
 
-#### The device freezes after trying to install
+#### The device freezes or reboots after trying to install
 
-The installation has failed. Make sure you have a memory card inserted with at least 10MB of free space. Hold the power button for 15 seconds to manually power off the device and then press the power button again to restart the device. You can then attempt to install again.
+The installation has failed. Make sure you have a memory card inserted with at least 10MB of free space. If the device froze, hold the power button for 15 seconds to manually power off the device and then press the power button again to restart the device. You can then attempt to install again.
+
+You need a memory card inserted even when using HENkaku with devices that come with built in memory, such as PS Vita Slim and PS TV.
 
 #### The web browser automatically closed after installation
 
