@@ -1,0 +1,54 @@
+<header class="site-header">
+</header>
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      {% if page.main != true %}
+      <a class="navbar-brand" href="{{ site.url }}">{{ site.title }}</a>
+      {% endif %}
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        {% assign pages = site.pages | sort:"weight"  %}
+        {% for my_page in pages %}
+          {% if my_page.title %}
+            <li {% if page.url == my_page.url %}class="active"{% endif %}>
+              <a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+      {% if page.main != true %}
+      <div class="nav navbar-nav navbar-right nav-pills">
+        <a id="installstart" class="btn btn-primary" onclick="javascript:setupInstall();" data-toggle="modal" data-target="#install">Install</a>
+      </div>
+      {% endif %}
+    </div><!--/.nav-collapse -->
+  </div>
+</nav>
+
+<div class="modal fade" id="install" tabindex="-1" role="dialog" aria-labelledby="installLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="installLabel">Install</h4>
+      </div>
+      <div class="modal-body" id="installText">
+      </div>
+      <div class="modal-footer">
+        <form action="{{ site.install }}">
+          <button type="button" class="btn btn-default" data-dismiss="modal" id="cancelBtn">Cancel</button>
+          <button type="submit" class="btn btn-primary" id="installBtn">Install</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

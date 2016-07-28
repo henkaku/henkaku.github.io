@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    <div class="container">
+      <div id="countdown" class="alert alert-success">
+        <div id="countbox"></div>
+        <div class="progress progress-striped active" style="margin-bottom: 0px;">
+          <div id="progress" class="progress-bar"></div>
+        </div>
+      </div>
+
+      {{ content }}
+
+      {% include footer.html %}
+    </div>
+
+    <script src="{{ site.baseurl }}/bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="{{ site.baseurl }}/bower_components/bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>
+    <script src="{{ site.baseurl }}/assets/install.js"></script>
+    <script src="{{ site.baseurl }}/assets/countdown.min.js"></script>
+  </body>
+
+</html>

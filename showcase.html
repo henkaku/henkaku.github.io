@@ -1,0 +1,18 @@
+---
+layout: page
+title: Showcase
+permalink: /showcase/
+weight: 2
+---
+<div id="homebrew-container">
+{% for homebrew in site.homebrew %}
+  <div class="well">
+    <img class="pull-right" alt="" src="/assets/{{ homebrew.id }}.png" width="240" height="136"></img>
+    <h3>{{ homebrew.title }}</h3>
+    {% if homebrew.author %}<h4>By {{ homebrew.author }}</h4>{% endif %}
+    <p>{{ homebrew.content }}</p>
+    <a href="{{ homebrew.site }}" class="btn btn-success">Download</a>
+    <div class="clearfix"></div>
+  </div>
+{% endfor %}
+</div>
