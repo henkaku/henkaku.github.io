@@ -18,7 +18,8 @@ It is important that you never update your Vita past 3.60 if you ever wish to us
 1. {:class="text-warning"}Make sure your Vita is running firmware **3.60**
 2. Open the Web Browser application and visit **{{ site.url }}**
 3. Press the "Install" button
-4. Follow the directions that pop up.
+4. You will get a "Welcome to HENkaku" message. Press "OK"
+5. Once the installation is complete, the browser will be closed automatically
 
 <div class="alert alert-info">
   <p>Hint: If you've installed HENkaku before, you can install it again directly from molecularShell's LiveArea. Just open the "shell" bubble and use the orange "install" button.</p>
