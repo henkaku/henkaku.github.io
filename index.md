@@ -11,7 +11,7 @@ What is HENkaku?
 ![VitaDoom](/assets/vitadoom-hero.png){:class="pull-right"}
 HENkaku is the first ever *homebrew enabler* for PS Vita and PSTV. It is akin to jailbreaking your iPhone or rooting your Android device.
 
-Homebrew are games and other software not officially approved. For example, [VitaDoom](https://github.com/MrNetrix/Vita_Doom) is a port of the classic game DOOM and [mGBA](https://mgba.io/) lets you play GameBoy Advanced ROMs. You can find more examples in the [showcase](/showcase/).
+Homebrew are games and other software not officially approved. For example, [VitaDoom](https://github.com/xyzz/Vita_Doom/releases/latest) is a port of the classic game DOOM and [mGBA](https://mgba.io/) lets you play GameBoy Advanced ROMs. You can find more examples in the [showcase](/showcase/).
 
 Best of all, HENkaku is 100% free. No cost. No ads. No "donations".
 
