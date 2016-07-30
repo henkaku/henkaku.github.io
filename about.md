@@ -15,7 +15,7 @@ molecularShell is based on VitaShell, which is developed by **[TheFlow](https://
 
 The image of the Vita on the front page is based on work by [Tokyoship, Wikimedia Commons](https://commons.wikimedia.org/wiki/File:PlayStation_Vita_illustration.svg) and licensed under  Creative Commons Attribution 3.0 Unported.
 
-We'd also like to thank an anonymous contributor for providing a WebKit vulnerability PoC (no CVE).
+We'd also like to thank an anonymous contributor for providing a WebKit vulnerability PoC (no CVE because CVE is dead).
 
 Thanks to **endrift**, **Frangar**, and **xerpi** for early beta testing and feedback and thanks to all the users of Rejuvenate for putting up with the complicated setup procedures.
 
