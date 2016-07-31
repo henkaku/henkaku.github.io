@@ -13,7 +13,7 @@ Setup
    1. Use the [prebuilt toolchain](https://goo.gl/QpX5zM), available for Linux, OSX, and Windows
    2. Alternatively, you may build the toolchain from scratch using the [buildscripts](https://github.com/vitasdk/buildscripts)
 2. Install the toolchain to a directory of your choice
-   1. We recommend `/usr/local/vitasdk` for Linux and `/opt/vitasdk` for OSX
+   1. We recommend `/usr/local/vitasdk` for both Linux and OSX
    2. On Windows, it is recommended you install [MSYS2](https://msys2.github.io/) and `make` (`pacman -S make`) in order to use Makefiles.
 3. Setup the `$VITASDK` path variable to point to where the toolchain is installed
    1. On Linux/OSX you can add `export VITASDK=/path/to/toolchain` to your Bash profile.
