@@ -11,8 +11,8 @@ description: > # this means to ignore newlines until "baseurl:"
   The revolution is here. Unlock your Vita and run unofficial games and 
   applications.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://henkaku.me" # the base hostname & protocol for your site
-install: "http://go.henkaku.me"
+url: "https://henkaku.xyz" # the base hostname & protocol for your site
+install: "http://go.henkaku.xyz"
 collections:
 - homebrew
 
