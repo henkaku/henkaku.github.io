@@ -12,7 +12,7 @@ Setup
 
 ## Automatic Installation
 
-You can build the toolchain using [vdmp](https://github.com/vitadev/vdpm). This script lets you easily set up the toolchain from source and also install some common dependencies such as libpng/libjpeg/vita2dlib/etc. Follow the directions from there.
+You can build the toolchain using [vdpm](https://github.com/vitadev/vdpm). This script lets you easily set up the toolchain from source and also install some common dependencies such as libpng/libjpeg/vita2dlib/etc. Follow the directions from there.
 
 ## Manual Installation
 
