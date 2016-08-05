@@ -5,7 +5,11 @@ permalink: /developer/
 weight: 3
 ---
 
-Vita homebrew are written with the [unoffical SDK](https://github.com/vitasdk), which is a modified ARM EABI toolchain. You get access to all the same public APIs found in the official SDK (which is available only to Sony licensed developers) as well as many private APIs (allowing, for example, to change the CPU clock speed).
+Vita homebrew are written with the [unoffical SDK](https://github.com/vitasdk), which is a modified ARM EABI toolchain. You get access to all the same public APIs found in the official SDK (which is available only to Sony licensed developers) as well as many private APIs which allows, for example:
+
+* Change device clock speed from the default 333MHz up to 444MHz
+* Access the memory card, internal user partition, and other filesystems
+* Allocate executable memory for JIT or dynamic recompilation
 
 Setup
 ===============================================================================
