@@ -9,18 +9,50 @@ Vita homebrew are written with the [unoffical SDK](https://github.com/vitasdk), 
 
 Setup
 ===============================================================================
+
+## Automatic Installation
+
+You can build the toolchain using [vdmp](https://github.com/vitadev/vdpm). This script lets you easily set up the toolchain from source and also install some common dependencies such as libpng/libjpeg/vita2dlib/etc. Follow the directions from there.
+
+## Manual Installation
+
 1. Get the toolchain
    1. Use the [prebuilt toolchain](https://goo.gl/QpX5zM), available for Linux, OSX, and Windows
-   2. Alternatively, you may build the toolchain from scratch using the [buildscripts](https://github.com/vitasdk/buildscripts)
+   3. For those who want to do more work, you may build the toolchain from scratch using the [buildscripts](https://github.com/vitasdk/buildscripts) by following the directions there.
 2. Install the toolchain to a directory of your choice
    1. We recommend `/usr/local/vitasdk` for both Linux and OSX
    2. On Windows, it is recommended you install [MSYS2](https://msys2.github.io/) and `make` (`pacman -S make`) in order to use Makefiles.
 3. Setup the `$VITASDK` path variable to point to where the toolchain is installed
    1. On Linux/OSX you can add `export VITASDK=/path/to/toolchain` to your Bash profile.
 
-Building
+Usage
 ===============================================================================
 You can find various sample code [here](https://github.com/vitasdk/samples). Build them and play around with the code to familiarize yourself with the environment. You can also look at the [showcase](/showcase/) to see some more advanced code. Unfortunately, there currently does not exist comprehensive documentation for the unoffical SDK. If you have the time, please help us with that!
+
+## Build process
+
+You should look at the makefiles for the sample code, but here's a breakdown:
+
+* Compile your `.c`/`.cpp` files to `.o` with `arm-vita-eabi-gcc -c -o file.obj file.c`
+* Link your `.o` files into an `.elf` file, **using -Wl,-q option**: `arm-vita-eabi-gcc -Wl,-q -o homebrew.elf file1.o file2.o file3.o`
+* Make a `.velf` file out of the `.elf` file: `vita-elf-create homebrew.elf homebrew.velf`
+* Make a `eboot.bin` file out of the `.velf` file: `vita-make-fself homebrew.velf eboot.bin`
+
+## Making a .vpk
+
+Homebrew installer uses a `.vpk` format which is just a ZIP file, start from [this template](https://github.com/xyzz/Vita_Doom/releases/download/1.0/vitadoom.vpk) (try installing it from the shell)
+* replace `eboot.bin` with your `eboot.bin`
+* you can also add `template.xml` and stuff like icon/background/etc that will be displayed in LiveArea, check out how it's done in molecularShell (launch it and go to `app0:`)
+* make sure to run [pngquant](https://pngquant.org/) on all your png images
+* to make `param.sfo`, use `vita-mksfoex -s TITLE_ID=XXXX00001 "homebrew name" output/param.sfo`
+
+When developing homebrew instead of rebuilding the vpk and reinstalling it on every change, you can upload your new `eboot.bin` to `ux0:app/TITLE_ID/eboot.bin` over ftp
+
+NB: all files you place to `.vpk` will be available as read-only inside `app0:`. For example, you can add `vpk/something.txt` and later in your app read `app0:something.txt`. In the same way, you can read `app0:sce_sys/param.sfo` and `app0:eboot.bin`.
+
+## Future
+
+The development community is still in its infancy. Do not be scared at all the new tools and terms. We are actively developing easier tools and templates to do the work, so the process will only be easier in the future. If you run into any issues, please check out the support options below.
 
 Showcase
 ===============================================================================
