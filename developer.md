@@ -47,6 +47,7 @@ You should look at the makefiles for the sample code, but here's a breakdown:
 In order to use functions from the Vita's runtime library (beyond the C/C++ standard libraries and `SceKernel`), then in addition to including the required headers you also need to statically link against the corresponding modules' stub libraries. In some cases, it's also necessary to load the sysmodule and/or call the library's initialisation function before using any of its other functions.
 
 For instance, to use the `sceNetConnect` function, you need to follow the following process:
+
 * Find the header that declares this function and include it in your code: `#include <psp2/net/net.h>`
 * Find the name of the module the function is in in [the import database](https://github.com/vitasdk/vita-headers/blob/master/db.json) and link against its stub library. In this case, it's `sceNet`, so the corresponding linker option would be `-lSceNet_stub`.
    * This name is usually also the function's prefix, but not always.
