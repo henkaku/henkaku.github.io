@@ -42,6 +42,21 @@ You should look at the makefiles for the sample code, but here's a breakdown:
 * Make a `.velf` file out of the `.elf` file: `vita-elf-create homebrew.elf homebrew.velf`
 * Make a `eboot.bin` file out of the `.velf` file: `vita-make-fself homebrew.velf eboot.bin`
 
+### Library usage
+
+In order to use functions from the Vita's runtime library (beyond the C/C++ standard libraries and `SceKernel`), then in addition to including the required headers you also need to statically link against the corresponding modules' stub libraries. In some cases, it's also necessary to load the sysmodule and/or call the library's initialisation function before using any of its other functions.
+
+For instance, to use the `sceNetConnect` function, you need to follow the following process:
+* Find the header that declares this function and include it in your code: `#include <psp2/net/net.h>`
+* Find the name of the module the function is in in [the import database](https://github.com/vitasdk/vita-headers/blob/master/db.json) and link against its stub library. In this case, it's `sceNet`, so the corresponding linker option would be `-lSceNet_stub`.
+   * This name is usually also the function's prefix, but not always.
+   * If you're building using a Makefile similar to the one in the [net/http sample](https://github.com/vitasdk/samples/blob/master/net/http/Makefile), the proper way to do this would be to append the option to the `LIBS` line (though of course the net/http sample already links against *this particular* library)
+* Check [the list of sysmodules](https://github.com/vitasdk/vita-headers/blob/master/include/psp2/sysmodule.h) for a reference to your library. In this case, we need `SCE_SYSMODULE_NET`.
+   * sceSysmodule is itself a library (though not a sysmodule) you need to include and link against as per these steps.
+   * You need to ensure the sysmodule is loaded before calling any of its functions: `if(sceSysmoduleIsLoaded(SCE_SYSMODULE_NET) != SCE_SYSMODULE_LOADED) sceSysmoduleLoadModule(SCE_SYSMODULE_NET)`
+* Look up the header for your library (so in this case [net/net.h](https://github.com/vitasdk/vita-headers/blob/master/include/psp2/net/net.h). If it has an initialisation function, you may need to call this before using any other functions.
+   * In this case, see the aforementioned net/http sample for details.
+
 ## Making a .vpk
 
 Homebrew installer uses a `.vpk` format which is just a ZIP file, start from [this template](https://github.com/xyzz/Vita_Doom/releases/download/1.0/vitadoom.vpk) (try installing it from the shell)
