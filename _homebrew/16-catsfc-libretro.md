@@ -1,6 +1,6 @@
 ---
-title: CATSFC-libretro Vita
+title: CATSFC-libretro-vita
 author: skogaby
-site: https://github.com/exsinner/CATSFC-libretro/releases
+site: https://github.com/skogaby/CATSFC-libretro/releases
 ---
-A Super Nintendo emulator for PlayStation VITA based on CATSFC version 1.36
+A Super Nintendo emulator for PlayStation VITA based on SNES9x 1.43. Supports local multiplayer on PSTV.
