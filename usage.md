@@ -63,6 +63,10 @@ That is the expected behavior. HENkaku should now be installed. You can launch h
 
 Press the home/PS button and close the browser manually. Installation should be successful.
 
+### Offline Installer
+
+We now have a solution for people who do not have constant internet access. The HENkaku Offline Installer will hijack the Email application such that you can install HENkaku after reboot using the Email application instead of visiting the website. More details about this [here](/showcase/).
+
 Using molecularShell
 -------------------------------------------------------------------------------
 The first time you install HENkaku, the molecularShell bubble will be added to your LiveArea. This will be your portal to installing homebrew.
