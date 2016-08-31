@@ -23,14 +23,13 @@ What are the requirements?
 ===============================================================================
 You need a PS Vita or PSTV running system firmware **3.60**. Unfortunately, it is not possible to run HENkaku on any device running a higher firmware version and it is also not possible to downgrade your system firmware.
 
-You also need a memory card (any size) with at least 10MB of free space. Internal memory on newer devices is currently not supported. In order to transfer homebrew to your device, you also need a FTP client for your computer. We recommend [FileZilla](https://sourceforge.net/projects/filezilla/). Finally, you need an internet connection to install HENkaku.
+In order to transfer homebrew to your device, you also need a FTP client for your computer. We recommend [FileZilla](https://sourceforge.net/projects/filezilla/). Finally, you need an internet connection to install HENkaku.
 
 tl;dr:
 
   * Vita on firmware 3.60
   * Internet connection
   * FTP client on your PC
-  * Memory card
 
 {: .text-danger}
 It is important that you never update your Vita past 3.60 if you ever wish to use HENkaku now or in the future. If you do update, all your installed homebrew will no longer work and you cannot install any homebrew in the future.

@@ -51,9 +51,7 @@ If the web browser keeps crashing, and you've already rebooted your Vita at leas
 
 #### The device freezes or reboots after trying to install
 
-The installation has failed. Make sure you have a memory card inserted with at least 10MB of free space. If the device froze, hold the power button for 15 seconds to manually power off the device and then press the power button again to restart the device. You can then attempt to install again.
-
-You need a memory card inserted even when using HENkaku with devices that come with built in memory, such as PS Vita Slim and PS TV.
+If the device froze, hold the power button for 15 seconds to manually power off the device and then press the power button again to restart the device. You can then attempt to install again.
 
 #### The web browser automatically closed after installation
 
@@ -78,7 +76,7 @@ The first time you install HENkaku, the molecularShell bubble will be added to y
 0. Press SELECT to start a FTP server. Please note that the FTP server is not password protected. Only run it on a trusted local network.
 0. Note the IP address displayed in a message popup.
 0. Open your FTP client on the host computer and connect to that IP address.
-0. Navigate to "ux0" (this is the root of your memory card) and you can upload the **.vpk** package here or in any subdirectory.
+0. Navigate to "ux0" (this is the root of your memory card or internal storage) and you can upload the **.vpk** package here or in any subdirectory.
 0. Once you upload all the packages you wish to install you can disconnect the client.
 0. Back in molecularShell, press CIRCLE to stop the FTP server.
 0. Navigate to "ux0:" and then to where you placed the packages. To install, select the package and press X.
