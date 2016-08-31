@@ -9,7 +9,7 @@ If you are using the offline installer and wish to update HENkaku, you must firs
 
 Release 4 (August 30, 2016)
 -------------------------------------------------------------------------------
-* Fixed issue where YouTube did not work
+* Fixed issue where YouTube website did not work
 * Added support for PSTV and Vita Slim internal storage
 * Updated to [VitaShell 0.86](https://github.com/TheOfficialFloW/VitaShell/releases/tag/0.86)
 
