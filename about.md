@@ -9,8 +9,6 @@ weight: 4
 
 HENkaku is developed by **molecule**. We are **[Davee](https://www.lolhax.org)**, **Proxima**, **[xyz](https://blog.xyz.is/)**, and **[YifanLu](https://yifan.lu/)**. We were the first to hack the PSP compatibility mode on the Vita, the first to dump memory from the Vita, and the first to run native code on the Vita. We are now the first to bring you a homebrew enabler for the Vita.
 
-We plan to eventually open-source all components of HENkaku. The released code will be on [GitHub](https://github.com/henkaku/).
-
 molecularShell is based on VitaShell, which is developed by **[TheFlow](https://twitter.com/theflow0/)**.
 
 The image of the Vita on the front page is based on work by [Tokyoship, Wikimedia Commons](https://commons.wikimedia.org/wiki/File:PlayStation_Vita_illustration.svg) and licensed under  Creative Commons Attribution 3.0 Unported.
