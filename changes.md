@@ -7,6 +7,14 @@ Each time you install HENkaku from this site, you will get the latest version. T
 
 If you are using the offline installer and wish to update HENkaku, you must first install HENkaku again using the online installer (this website). Next, while still connected to the internet, run the offline installer bubble (not Email) and install the payload again.
 
+Release 5 (September 6, 2016)
+-------------------------------------------------------------------------------
+This update improves the quality of the system performance.
+
+* Changed how PSN spoofing is done. This should fix problems a minority of users experience regarding game saves.
+* Removed update blocking features as a side effect of above.
+* Update to [VitaShell 0.91](https://github.com/TheOfficialFloW/VitaShell/releases/tag/0.91). This is the last VitaShell update bundled into HENkaku. Please use VitaShell's built in network update feature to update VitaShell as a standalone component.
+
 Release 4 (August 30, 2016)
 -------------------------------------------------------------------------------
 * Fixed issue where YouTube website did not work
