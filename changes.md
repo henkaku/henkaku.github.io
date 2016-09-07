@@ -12,6 +12,7 @@ Release 5 (September 6, 2016)
 This update improves the quality of the system performance.
 
 * Changed how PSN spoofing is done. This should fix problems a minority of users experience regarding game saves.
+* **Modded vs0:shell/shell.self is not supported.**
 * Removed update blocking features as a side effect of above.
 * Update to [VitaShell 0.91](https://github.com/TheOfficialFloW/VitaShell/releases/tag/0.91). This is the last VitaShell update bundled into HENkaku. Please use VitaShell's built in network update feature to update VitaShell as a standalone component.
 
