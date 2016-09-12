@@ -35,13 +35,11 @@ You must run the HENkaku installer again. Follow the directions above.
 
 This is normal. Just wait for it, eventually it should load the page and trigger the exploit.
 
-#### The web browser crashes (error C2-12828-1) and an error report dialog appears BEFORE "Welcome to HENkaku" pops up
+#### The web browser crashes (error C2-12828-1) and an error report dialog appears
 
 Press "OK" and try again. If the browser crashes more than three times in a row, you can quit the browser (Press the PS button and swipe the LiveArea page from the top right corner or hold the "O" or "X" button depending on your region). Then you can re-attempt installation.
 
-#### The web browser crashes (error C2-12828-1) and an error report dialog appears AFTER "Welcome to HENkaku" pops up
-
-Press "OK" and try again. If this happens more than three times in a row, you should reboot the system and try again.
+If you quit the browser and this still happens more than three times in a row, you should reboot the system and try again.
 
 If the web browser keeps crashing, and you've already rebooted your Vita at least five times in a row, try the following:
 

@@ -7,6 +7,12 @@ Each time you install HENkaku from this site, you will get the latest version. T
 
 If you are using the offline installer and wish to update HENkaku, you must first install HENkaku again using the online installer (this website). Next, while still connected to the internet, run the offline installer bubble (not Email) and install the payload again.
 
+Release 6 (September 12, 2016)
+-------------------------------------------------------------------------------
+* Whitelisted `scePowerSetGpuClockFrequency`, `scePowerRequestColdReset`, `scePowerRequestStandby`, and `scePowerRegisterCallback`
+* Fixed rare bug which crashes modded SceShell. _There is still no PSN spoofing for modded SceShell_
+* Removed "welcome" message when triggering exploit (was used for debugging and is no longer needed)
+
 Release 5 (September 6, 2016)
 -------------------------------------------------------------------------------
 This update improves the quality of the system performance.
