@@ -30,7 +30,7 @@ Release 4 (August 30, 2016)
 
 Release 3 (August 27, 2016)
 -------------------------------------------------------------------------------
-* **PSN spoofing**: You can access PSN without updating to 3.61! Please continue reading for some important notes.
+* **PSN spoofing**: You can access PSN without updating to 3.61!
 * Safe homebrew support: Developers can optionally mark their homebrews as "safe" and it will _not_ gain restricted API access. We highly recommend developers who are not using such features to update their packages as safe.
 * [VitaShell 0.8](https://github.com/TheOfficialFloW/VitaShell): Read the release notes from The_FloW for the list of changes to VitaShell.
 * Version string: A callback to the PSP days where every hack would change the system version string. We do that too now (see the screenshot) so we can provide better support to our users.
