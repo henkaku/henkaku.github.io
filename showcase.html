@@ -12,7 +12,7 @@ weight: 2
 </ul>
 <div id="homebrew-container">
 {% for homebrew in site.homebrew %}
-  <div class="well">
+  <div class="well" id="{{ homebrew.id }}">
     <img class="pull-right" alt="" src="/assets/{{ homebrew.id }}.png" width="240" height="136"></img>
     <h3>{{ homebrew.title }}</h3>
     {% if homebrew.author %}<h4>By {{ homebrew.author }}</h4>{% endif %}

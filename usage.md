@@ -60,7 +60,7 @@ Press the home/PS button and close the browser manually. Installation should be 
 
 ### Offline Installer
 
-We now have a solution for people who do not have constant internet access. The HENkaku Offline Installer will hijack the Email application such that you can install HENkaku after reboot using the Email application instead of visiting the website. More details about this [here](/showcase/).
+We now have a solution for people who do not have constant internet access. The HENkaku Offline Installer will hijack the Email application such that you can install HENkaku after reboot using the Email application instead of visiting the website. More details about this [here](/showcase/#/homebrew/0-offline).
 
 Using molecularShell
 -------------------------------------------------------------------------------
