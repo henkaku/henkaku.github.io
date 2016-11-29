@@ -16,12 +16,14 @@ Setup
 
 ## Automatic Installation
 
-You can build the toolchain using [vdpm](https://github.com/vitadev/vdpm). This script lets you easily set up the toolchain from source and also install some common dependencies such as libpng/libjpeg/vita2dlib/etc. Follow the directions from there.
+~~You can build the toolchain using [vdpm](https://github.com/vitadev/vdpm). This script lets you easily set up the toolchain from source and also install some common dependencies such as libpng/libjpeg/vita2dlib/etc. Follow the directions from there.~~
+
+vdpm is currently outdated. Please use the manual installation instructions below.
 
 ## Manual Installation
 
 1. Get the toolchain
-   1. Use the [prebuilt toolchain](https://goo.gl/QpX5zM), available for Linux, OSX, and Windows
+   1. Use the prebuilt toolchain, available for [Linux, OSX](https://goo.gl/H5mzMI), and [Windows](https://goo.gl/1Xc9Z1).
    3. For those who want to do more work, you may build the toolchain from scratch using the [buildscripts](https://github.com/vitasdk/buildscripts) by following the directions there.
 2. Install the toolchain to a directory of your choice
    1. We recommend `/usr/local/vitasdk` for both Linux and OSX
