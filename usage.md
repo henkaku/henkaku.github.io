@@ -102,4 +102,4 @@ Once you installed HENkaku, running homebrew is as simple as launching the insta
 
 Support
 -------------------------------------------------------------------------------
-Running into problems? You can find us on FreeNode IRC at [#henkaku](irc://chat.freenode.net/henkaku). Community support will also be provided in the subreddit [/r/vitahacks](https://reddit.com/r/vitahacks).
+Running into problems? You can find us on FreeNode IRC at [#henkaku](irc://chat.freenode.net/henkaku). Community support will also be provided in the [forums](/forums/).

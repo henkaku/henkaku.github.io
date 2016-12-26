@@ -28,4 +28,4 @@ You can request to add your homebrew to the [showcase](/showcase/).
 
 Support
 ===============================================================================
-Running into SDK related issues? Need help setting up the toolchain? Want advice on how to do something with vitasdk? You can find the community of developers on FreeNode IRC at [#vitasdk](irc://chat.freenode.net/vitasdk). Please only join for development related support! General support can be found at [#henkaku](irc://chat.freenode.net/henkaku).
+Running into SDK related issues? Need help setting up the toolchain? Want advice on how to do something with vitasdk? You can find the community of developers on FreeNode IRC at [#vitasdk](irc://chat.freenode.net/vitasdk). Please only join for development related support! General support can be found at [#henkaku](irc://chat.freenode.net/henkaku). We also have a [forum for developers](https://forums.vitasdk.org).
