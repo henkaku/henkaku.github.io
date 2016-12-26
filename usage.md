@@ -9,7 +9,7 @@ Installing HENkaku
 -------------------------------------------------------------------------------
 You must run the installer *each time you reboot the device* before you can launch any homebrew application. You do *not* need to reinstall when you place the device into sleep mode. If you press the power button once, you are in sleep mode and do not need to reinstall HENkaku. If you hold the power button and then choose the option to Power Off, then you do need to reinstall HENkaku. You also need to reinstall if the battery runs out. Installing HENkaku requires an internet connection.
 
-The first time you install HENkaku, a new bubble named "shell" will show up in LiveArea. This application allows you to install other homebrew bubbles. However, once you reboot the device, molecularShell and any other homebrew bubbles you installed will not be able to be launched until you run the installer again.
+The first time you install HENkaku, a new bubble named "molecularShell" will show up in LiveArea. This application allows you to install other homebrew bubbles. However, once you reboot the device, molecularShell and any other homebrew bubbles you installed will not be able to be launched until you run the installer again.
 
 {: .text-danger}
 It is important that you never update your Vita past 3.60 if you ever wish to use HENkaku now or in the future. If you do update, all your installed homebrew will no longer work and you cannot install any homebrew in the future.
@@ -58,6 +58,10 @@ That is the expected behavior. HENkaku should now be installed. You can launch h
 
 Press the home/PS button and close the browser manually. Installation should be successful.
 
+#### A bad plugin crashes device upon installation
+
+You can force all configuration to be reset by holding R after the exploit successfully launches the bootstrap installer. This is when you see the animation where LiveArea comes up and the screen scrolls from the Web Browser tab to a new one and then launches this new app.
+
 ### Offline Installer
 
 We now have a solution for people who do not have constant internet access. The HENkaku Offline Installer will hijack the Email application such that you can install HENkaku after reboot using the Email application instead of visiting the website. More details about this [here](/showcase/#/homebrew/0-offline).
@@ -88,6 +92,9 @@ You must run the HENkaku installer again. Follow the directions above.
 
 Check if you have a firewall on the host computer. Also make sure you're on the same network as the host.
 
+#### Not all files/devices are shown
+
+You need to enable unsafe homebrew mode. Open molecularShell and press Start. Then choose the option to enable unsafe homebrew. Back out of the menu, quit molecularShell, and relaunch it again.
 
 Running Homebrew
 -------------------------------------------------------------------------------

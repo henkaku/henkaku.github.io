@@ -2,7 +2,7 @@
 layout: page
 title: About
 permalink: /about/
-weight: 4
+weight: 5
 ---
 
 ![molecule](/assets/molecule.png){:class="center-block"}

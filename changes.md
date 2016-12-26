@@ -7,6 +7,12 @@ Each time you install HENkaku from this site, you will get the latest version. T
 
 If you are using the offline installer and wish to update HENkaku, you must first install HENkaku again using the online installer (this website). Next, while still connected to the internet, run the offline installer bubble (not Email) and install the payload again.
 
+Release 7 (December 26, 2016)
+-------------------------------------------------------------------------------
+* [taiHENkaku](https://yifan.lu/2016/11/01/taihen-cfw-framework-for-ps-vita/) brings plugin support
+* Tons of stability improvements and refactored codebase to be more streamlined
+* [VitaShell 1.43](https://github.com/TheOfficialFloW/VitaShell/releases/tag/1.43) fixed problem with built in updater
+
 Release 6 (September 12, 2016)
 -------------------------------------------------------------------------------
 * Whitelisted `scePowerSetGpuClockFrequency`, `scePowerRequestColdReset`, `scePowerRequestStandby`, and `scePowerRegisterCallback`
