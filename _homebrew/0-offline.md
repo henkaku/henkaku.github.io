@@ -9,9 +9,10 @@ To install or update HENkaku offline:
 
 1. First, install and activate HENkaku from {{ site.url }}
 2. Download the [Offline Installer VPK](https://github.com/henkaku/offline-installer/releases/latest) and install it
-3. Launch the offlineInstaller bubble
-4. Follow the instructions: press CROSS to install
-5. (Do not delete the bubble after the exploit is installed. You should redo the installation when you have internet access to ensure that you get the latest version of HENkaku)
+3. Make sure unsafe homebrew is allowed (molecularShell->press Start button->Enable unsafe homebrew->on)
+4. Launch the offlineInstaller bubble
+5. Follow the instructions: press CROSS to install
+6. (Do not delete the bubble after the exploit is installed. You should redo the installation when you have internet access to ensure that you get the latest version of HENkaku)
 
 To run HENkaku offline:
 
