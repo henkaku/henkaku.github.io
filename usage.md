@@ -43,7 +43,7 @@ If you quit the browser and this still happens more than three times in a row, y
 If the web browser keeps crashing, and you've already rebooted your Vita at least five times in a row, try the following:
 
 * Delete your cookies. To do that, open the web browser, open the menu and click on "Delete Cookies".
-* Close all your web browser tabs, reboot PS Vita and try going to **{{ site.install }}** directly, without visiting **{{ site.url }}**.
+* Close all your web browser tabs, reboot PS Vita and try going to **{{ site.url }}/go/** directly, without visiting **{{ site.url }}**.
 * Try switching to another internet connection: a firewall or your ISP could be interfering with the proper operation of the exploit.
 
 #### The device freezes or reboots after trying to install

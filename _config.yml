@@ -12,7 +12,6 @@ description: > # this means to ignore newlines until "baseurl:"
   applications.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://henkaku.xyz" # the base hostname & protocol for your site
-install: "http://go.henkaku.xyz"
 collections:
 - homebrew
 
