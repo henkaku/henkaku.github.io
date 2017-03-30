@@ -19,7 +19,7 @@ function setupInstall() {
   if (ver === false) {
     text = '<p>Please visit <strong>' + location.origin + '</strong> from your PS Vita or PSTV to install HENkaku.</p>';
   } else if (ver !== "3.60") {
-    text = '<p>Your firmware <strong>' + ver + '</strong> is currently not supported. You cannot install HENkaku at this time.</p>';
+    text = '<p>Your firmware <strong>' + ver + '</strong> is currently not supported. You cannot install HENkaku at this time. (You will also see this message if you have already installed HENkaku and version spoofing is enabled.)</p>';
   } else {
     text = '<p>You are about to void the warranty of your device! We believe the code is safe, but unforeseen circumstances may damage your device, so install HENkaku at your own risk!</p>' + 
       '<p>When the installation completes, the browser will automatically close and homebrew launching will be enabled. If VitaShell is not currently installed, it will be installed as a new icon in LiveArea.</p>' + 
