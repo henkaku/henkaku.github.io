@@ -10,7 +10,8 @@ If you are using the offline installer and wish to update HENkaku, you must firs
 Release 8 (March 26, 2017)
 -------------------------------------------------------------------------------
 * PSN spoofing works again for 3.63 (it will be fixed in the next firmware, so use it while you can!). Make sure your spoof version is set to 3.63. You can also disable PSN spoofing in molecularShell settings menu.
-* First boot of molecularShell will alert the user to unsafe homebrew and how to enable it
+* First boot of molecularShell will alert the user to unsafe homebrew and how to enable it.
+* (29/03/2017) Improved stability of the payload.
 
 Release 7 (December 26, 2016)
 -------------------------------------------------------------------------------
