@@ -104,11 +104,11 @@ Upgrading to 3.60
 -------------------------------------------------------------------------------
 Since only firmware 3.60 is supported, you can upgrade any Vita on a lower firmware version to 3.60 with these instructions. Be careful not to update to the latest version through official means or you will not be able to use HENkaku!
 
-## Simple Instructions
+### Simple Instructions
 
 Set your DNS to **{{ site.dns }}** and choose to update from Wi-Fi. Proceed **only** if the message says "A new version of the system software is available. Firmware 3.60 (変革 Compatible)". That's it!
 
-## Detailed Instructions
+### Detailed Instructions
 
 1. Open the Settings app
 2. Select "Network"
