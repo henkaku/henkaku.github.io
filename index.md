@@ -34,6 +34,10 @@ tl;dr:
 {: .text-danger}
 It is important that you never update your Vita past 3.60 if you ever wish to use HENkaku now or in the future. If you do update, all your installed homebrew will no longer work and you cannot install any homebrew in the future.
 
+Buying a Vita?
+===============================================================================
+If you are considering purchasing a new PS Vita or PSTV in order to use HENkaku, [follow the upgrade instructions](/usage/) in order to upgrade to 3.60 and _not_ the latest firmware. Because Sony has stopped producing new Vita units in the west, all brand new stock except the latest Japan only colors come with an old firmware. Therefore we recommend buying new rather than preowned or refurbished.
+
 Details and Support
 ===============================================================================
 More details and troubleshooting can be found in the [usage guide](/usage/). If you are a developer, please check out the [developer guide](/developer/) and help contribute to the homebrew community.

@@ -100,6 +100,30 @@ Running Homebrew
 -------------------------------------------------------------------------------
 Once you installed HENkaku, running homebrew is as simple as launching the installed bubble directly from LiveArea!
 
+Upgrading to 3.60
+-------------------------------------------------------------------------------
+Since only firmware 3.60 is supported, you can upgrade any Vita on a lower firmware version to 3.60 with these instructions. Be careful not to update to the latest version through official means or you will not be able to use HENkaku!
+
+## Simple Instructions
+
+Set your DNS to **{{ site.dns }}** and choose to update from Wi-Fi. Proceed **only** if the message says "A new version of the system software is available. Firmware 3.60 (変革 Compatible)". That's it!
+
+## Detailed Instructions
+
+1. Open the Settings app
+2. Select "Network"
+3. Select "Wi-Fi Settings"
+4. If you are not connected to the internet, do so now. Select your current connection (there should be a green dot to the left).
+5. Select "Advanced Settings"
+6. Under "DNS Settings" choose "Manual"
+7. Under "Primary DNS" set it to **{{ site.dns }}**
+8. Leave "Secondary DNS" blank. Make sure "Proxy Server" is set to "Do Not Use". Press OK.
+9. Back out to the main settings screen. Select "System Update" and then "Update Using Wi-Fi."
+10. If you get an error saying your system is up to date, that means either your Vita is on 3.60 already *or your Vita is > 3.60 and is not supported by HENkaku*
+11. Otherwise you will see a pop-up saying there is a new update. **Make sure the message says "3.60 (変革 Compatible)"!** If the message does not say that, **do not proceed** and try to repeat these steps to see if you missed something.
+12. After ensuring you are updating to "3.60 (変革 Compatible)", proceed with the steps on screen to update.
+13. After updating to 3.60, you can follow steps 1-5 again and then set "DNS Settings" back to "Automatic" to restore your DNS settings.
+
 Support
 -------------------------------------------------------------------------------
 Running into problems? You can find us on FreeNode IRC at [#henkaku](irc://chat.freenode.net/henkaku). Community support will also be provided in the [forums](/forums/).
