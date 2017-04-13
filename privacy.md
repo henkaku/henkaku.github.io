@@ -10,7 +10,7 @@ HENkaku runs code on your PS Vita device through an exploit in the browser. This
 Be aware of what homebrews you install in case malicious ones pop up. Also be aware that third parties can re-purpose our code for more nefarious means. If you do not want to be exposed to that risk, we recommend that you do not use the PS Vita web browser for any purpose other than installing HENkaku (from our HTTPS site).
 
 ## Personal Information
-There are personal information and unique identifiers on your Vita. We do not store any identifying information and we do not transmit them over the network either. In the beginning of the installation, we do transmit some data corresponding to the current state of your device's firmware. This state does not contain any personal/identifying information and is required for our server to generate a unique install package for the current state of your device. This is required because PS Vita's security features prevents generic payloads from running on your device.
+There are personal information and unique identifiers on your Vita. We do not store any identifying information and we do not transmit them over the network either.
 
 ## Cookies and Tracking
 We use [GitHub Pages](https://help.github.com/articles/github-privacy-policy/) and [CloudFlare](https://www.cloudflare.com/security-policy/) to run our website. We also use [Google Analytics](https://support.google.com/analytics/answer/6004245?hl=en). We do not use cookies or tracking beyond that.
