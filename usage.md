@@ -60,7 +60,7 @@ Press the home/PS button and close the browser manually. Installation should be 
 
 #### A bad plugin crashes device upon installation
 
-You can force all configuration to be reset by holding R after the exploit successfully launches the bootstrap installer. This is when you see the animation where LiveArea comes up and the screen scrolls from the Web Browser tab to a new one and then launches this new app.
+You can force all configuration to be reset by pressing R at the prompt when the bootstrap installer is launched. This is reset your taiHEN config.txt file as well as HENkaku settings.
 
 ### Offline Installer
 
