@@ -7,9 +7,18 @@ Each time you install HENkaku from this site, you will get the latest version. T
 
 If you are using the offline installer and wish to update HENkaku, you must first install HENkaku again using the online installer (this website). Next, while still connected to the internet, run the offline installer bubble (not Email) and install the payload again.
 
+Release 9 (May 11, 2017)
+-------------------------------------------------------------------------------
+* Fixed a bug in one of the patch that may crash SceShell
+* Disabled triggering of (nonworking) force reinstall in offline mode
+* Fixed slow file reading in molecularShell
+* Fixed crash in installing VPK (thanks d3m3vilurr)
+* Moved HENkaku settings to the official Settings application (thanks The_FloW)
+* Fixed problem of molecularShell corrupting VitaShell theme and settings (thanks The_FloW)
+
 Release 8 (March 26, 2017)
 -------------------------------------------------------------------------------
-* PSN spoofing works again for 3.63 (it will be fixed by Sony in the future so use it while you can. You can also disable PSN spoofing in molecularShell settings menu.
+* PSN spoofing works again (it will be fixed by Sony in the future so use it while you can. You can also disable PSN spoofing in molecularShell settings menu.
 * First boot of molecularShell will alert the user to unsafe homebrew and how to enable it.
 * (29/03/2017) Improved stability of the payload.
 
