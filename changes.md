@@ -15,6 +15,7 @@ Release 9 (May 11, 2017)
 * Fixed crash in installing VPK (thanks d3m3vilurr)
 * Moved HENkaku settings to the official Settings application (thanks The_FloW)
 * Fixed problem of molecularShell corrupting VitaShell theme and settings (thanks The_FloW)
+* (12/05/2017) Added helper menu for users confused with the settings move
 
 Release 8 (March 26, 2017)
 -------------------------------------------------------------------------------
