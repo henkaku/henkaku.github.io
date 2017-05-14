@@ -16,6 +16,9 @@ Release 9 (May 11, 2017)
 * Moved HENkaku settings to the official Settings application (thanks The_FloW)
 * Fixed problem of molecularShell corrupting VitaShell theme and settings (thanks The_FloW)
 * (12/05/2017) Added helper menu for users confused with the settings move
+* (13/05/2017) Added translations for HENkaku settings (thanks everyone who helped)
+* (13/05/2017) Fixed problem of menu item not showing up in Settings widget
+* (13/05/2017) Bypassed SCE bug preventing > 2 plugins from loading for a game
 
 Release 8 (March 26, 2017)
 -------------------------------------------------------------------------------
