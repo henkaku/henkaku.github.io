@@ -19,6 +19,7 @@ Release 9 (May 11, 2017)
 * (13/05/2017) Added translations for HENkaku settings (thanks everyone who helped)
 * (13/05/2017) Fixed problem of menu item not showing up in Settings widget
 * (13/05/2017) Bypassed SCE bug preventing > 2 plugins from loading for a game
+* (14/05/2017) Minor settings language tweak
 
 Release 8 (March 26, 2017)
 -------------------------------------------------------------------------------
