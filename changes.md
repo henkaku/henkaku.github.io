@@ -14,6 +14,8 @@ Release 10 (May 26, 2017)
 default
 * Support loading plugins from `ur0:tai/config.txt` if `ux0:tai/config.txt` 
 cannot be found
+* If you are using Ensō, you _must_ redownload the installer and reinstall 
+configuration in order to use the new path
 
 Release 9 (May 11, 2017)
 -------------------------------------------------------------------------------
