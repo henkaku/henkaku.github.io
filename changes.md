@@ -7,6 +7,14 @@ Each time you install HENkaku from this site, you will get the latest version. T
 
 If you are using the offline installer and wish to update HENkaku, you must first install HENkaku again using the online installer (this website). Next, while still connected to the internet, run the offline installer bubble (not Email) and install the payload again.
 
+Release 10 (May 26, 2017)
+-------------------------------------------------------------------------------
+* Moved files to ur0:tai, can run without memory card on original Vitas now
+* If molecularShell is removed manually, will not attempt to reinstall by 
+default
+* Support loading plugins from `ur0:tai/config.txt` if `ux0:tai/config.txt` 
+cannot be found
+
 Release 9 (May 11, 2017)
 -------------------------------------------------------------------------------
 * Fixed a bug in one of the patch that may crash SceShell
