@@ -16,6 +16,9 @@ default
 cannot be found
 * If you are using Ensō, you _must_ redownload the installer and reinstall 
 configuration in order to use the new path
+* (06/06/2017) Added setting options to refresh config.txt and reboot (thanks The_FloW)
+* (06/06/2017) Added setting options to unlink memory card and download DRM-free packages
+* (06/06/2017) Fixed bug where HENkaku Settings and spoofed version string do not show up
 
 Release 9 (May 11, 2017)
 -------------------------------------------------------------------------------
