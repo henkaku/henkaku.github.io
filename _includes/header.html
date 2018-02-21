@@ -18,7 +18,7 @@
       <ul class="nav navbar-nav">
         {% assign pages = site.pages | sort:"weight"  %}
         {% for my_page in pages %}
-          {% if my_page.title %}
+          {% if my_page.title and my_page.main != true %}
             <li {% if page.url == my_page.url %}class="active"{% endif %}>
               <a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
             </li>

@@ -1,6 +1,5 @@
 ---
 layout: main
-title: 
 main: true
 intro: HENkaku 変革
 install: Install
