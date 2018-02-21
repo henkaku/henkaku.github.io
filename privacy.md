@@ -3,8 +3,6 @@ layout: page
 permalink: /privacy/
 ---
 
-Privacy Policy
-===============================================================================
 HENkaku runs code on your PS Vita device through an exploit in the browser. This technique is usually used by malicious applications to steal personal information therefore we want to be very clear in this: we do not run any code on your device without your explicit consent in pressing the "Install" button and then pressing it again.
 
 Be aware of what homebrews you install in case malicious ones pop up. Also be aware that third parties can re-purpose our code for more nefarious means. If you do not want to be exposed to that risk, we recommend that you do not use the PS Vita web browser for any purpose other than installing HENkaku (from our HTTPS site).
