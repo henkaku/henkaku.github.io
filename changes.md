@@ -7,6 +7,13 @@ Each time you install HENkaku from this site, you will get the latest version. T
 
 If you are using the offline installer and wish to update HENkaku, you must first install HENkaku again using the online installer (this website). Next, while still connected to the internet, run the offline installer bubble (not Email) and install the payload again.
 
+If you are using Ensō, just install HENkaku again from this website and restart your Vita.
+
+Release 11 (February 20, 2018)
+-------------------------------------------------------------------------------
+* Stability update: success rate should dramatically increase
+* taiHEN config.txt can be refreshed from kernel `module_start`, fixed use-after-free bug
+
 Release 10 (May 26, 2017)
 -------------------------------------------------------------------------------
 * Moved files to ur0:tai, taiHEN can run without memory card on original Vitas now
